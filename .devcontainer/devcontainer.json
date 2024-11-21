@@ -1,0 +1,23 @@
+{
+    "name": "URL2NOTION",
+    "dockerComposeFile": "../docker-compose.yaml",
+    "service": "app",
+    "workspaceFolder": "/app",
+    // "customizations": {
+    //     "vscode": {
+    //         "settings": {
+    //             "python.defaultInterpreterPath": "/usr/bin/python3",
+    //             "terminal.integrated.defaultProfile.linux": "bash"
+    //         },
+    //         "extensions": [
+    //             "ms-python.python",
+    //             "ms-python.vscode-pylance",
+    //             // "ms-azuretools.vscode-docker",
+    //             // "ms-python.black-formatter",
+    //             // "ms-python.flake8",
+    //             // "ms-python.isort"
+    //         ]
+    //     }
+    // },
+    "remoteUser": "root"
+  }

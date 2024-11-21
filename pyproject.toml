@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "url2notion"
+version = "0.1.0"
+description = ""
+authors = ["t-syunya <tsyunyam@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+chainlit = "^1.3.2"
+notion-client = "^2.2.1"
+beautifulsoup4 = "^4.12.3"
+fastapi = "^0.115.5"
+uvicorn = "^0.25.0,<0.26.0"
+
+
+
+[tool.poetry.group.dev.dependencies]
+sqlalchemy = "^2.0.36"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
